@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html>
-<body style="
-  margin:0;
-  background:url('background.png') no-repeat center center fixed;
-  background-size:cover;
-  height:100vh;
-  filter:blur(20px);
-">
-<audio id="music">
-  <source src="music.mp3">
-</audio>
-
-<img src="Aceton.png" style="position:absolute;left:50px;top:50px;width:100px;">
-<img src="hydrogenpero.png" style="position:absolute;left:200px;top:50px;width:100px;">
-<img src="sulacid.png" style="position:absolute;left:350px;top:50px;width:100px;">
-
-<script>
-document.addEventListener('keydown', function() {
-  document.body.style.filter = 'none';
-  document.getElementById('music').play();
-});
-</script>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto in het midden</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+        }
+        img {
+            max-width: 80%;
+            max-height: 80%;
+        }
+    </style>
+</head>
+<body>
+    <img src="foto.png" alt="Foto in het midden">
 </body>
 </html>
